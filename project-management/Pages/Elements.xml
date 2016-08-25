@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Templates\project\view-all.html" Url="Pages/Templates/project/view-all.html" ReplaceContent="TRUE" />
+    <File Path="Pages\Templates\project\view-detail.html" Url="Pages/Templates/project/view-detail.html" ReplaceContent="TRUE" />
+    <File Path="Pages\Templates\form.html" Url="Pages/Templates/form.html" ReplaceContent="TRUE" />
+    <File Path="Pages\Templates\server\form-2-features.html" Url="Pages/Templates/server/form-2-features.html" ReplaceContent="TRUE" />
+    <File Path="Pages\Templates\server\form-1-basic-data.html" Url="Pages/Templates/server/form-1-basic-data.html" ReplaceContent="TRUE" />
+    <File Path="Pages\Templates\server\form-3-related-services.html" Url="Pages/Templates/server/form-3-related-services.html" ReplaceContent="TRUE" />
+    <File Path="Pages\Templates\server\form-4-shares.html" Url="Pages/Templates/server/form-4-shares.html" ReplaceContent="TRUE" />
+    <File Path="Pages\Templates\server\form-5-users.html" Url="Pages/Templates/server/form-5-users.html" ReplaceContent="TRUE" />
+    <File Path="Pages\Templates\server\form-6-certificates.html" Url="Pages/Templates/server/form-6-certificates.html" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

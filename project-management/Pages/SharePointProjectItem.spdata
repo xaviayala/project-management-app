@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
+    <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Templates\project\view-all.html" Target="Pages\Templates\project\" Type="ElementFile" />
+    <ProjectItemFile Source="Templates\project\view-detail.html" Target="Pages\Templates\project\" Type="ElementFile" />
+    <ProjectItemFile Source="Templates\form.html" Target="Pages\Templates\" Type="ElementFile" />
+    <ProjectItemFile Source="Templates\server\form-2-features.html" Target="Pages\Templates\server\" Type="ElementFile" />
+    <ProjectItemFile Source="Templates\server\form-1-basic-data.html" Target="Pages\Templates\server\" Type="ElementFile" />
+    <ProjectItemFile Source="Templates\server\form-3-related-services.html" Target="Pages\Templates\server\" Type="ElementFile" />
+    <ProjectItemFile Source="Templates\server\form-4-shares.html" Target="Pages\Templates\server\" Type="ElementFile" />
+    <ProjectItemFile Source="Templates\server\form-5-users.html" Target="Pages\Templates\server\" Type="ElementFile" />
+    <ProjectItemFile Source="Templates\server\form-6-certificates.html" Target="Pages\Templates\server\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

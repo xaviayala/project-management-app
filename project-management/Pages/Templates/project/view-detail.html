@@ -1,0 +1,19 @@
+<alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">
+    <div role="alert" class="alert alert-success">{{alert.msg}}</div>
+</alert>
+<div class="form-group">
+    <label for="Proyecto">Proyecto</label>
+    <input required type="text" class="form-control" placeholder="Denominación del proyecto" data-ng-model="project.Title" />
+</div>
+<div class="form-group">
+    <label for="txtName">Descripción</label>
+    <textarea required type="text" class="form-control" placeholder="Breve descricipción del proyecto" data-ng-model="project.lastName" />
+</div>
+<div class="form-group">
+    <label for="txtName">Ámbito</label>
+    <input required type="text" class="form-control" placeholder="Departmentos y/o usuarios que utilizarán el servicio" data-ng-model="project.address" />
+</div>
+<div class="form-group">
+    <button data-ng-click="save(project)" class="btn btn-primary">Save</button>
+    <a href="#/" class="btn btn-default">Cancel</a>
+</div>

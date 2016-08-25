@@ -1,0 +1,28 @@
+<alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">
+    <div role="alert" class="alert alert-success">{{alert.msg}}</div>
+</alert>
+<div class="form-group">
+    <input type="text" class="form-control" id="search" placeholder="Search projects" data-ng-model="search" />
+</div>
+<table class="table table-striped table-hover">
+    <tbody>
+        <tr>
+            <th>Fist Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+        <tr data-ng-repeat="project in projects | filter:search">
+            <td>{{project.FirstName}}</td>
+            <td>{{project.LastName}}</td>
+            <td>{{project.Address}}</td>
+            <td>
+                <a href="#/editProject/{{project.ID}}"><span class="glyphicon glyphicon-edit"></span></a>
+                <a href="" data-ng-click="delete(project)"><span class="glyphicon glyphicon-remove"></span></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div class="form-group">
+    <a active href="#/addProject" role="button" class="btn btn-primary">Add New Project</a>
+</div>

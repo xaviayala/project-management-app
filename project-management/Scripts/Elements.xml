@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\app.js" Url="Scripts/app.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\controllers\pmCtrl.js" Url="Scripts/controllers/pmCtrl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\services\baseSvc.js" Url="Scripts/services/baseSvc.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\services\pmSvc.js" Url="Scripts/services/pmSvc.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\vendor\sp-peoplepicker.min.css" Url="Scripts/vendor/sp-peoplepicker.min.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\vendor\sp-peoplepicker.min.js" Url="Scripts/vendor/sp-peoplepicker.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\controllers\formCtrl.js" Url="Scripts/controllers/formCtrl.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\directives\ng-flags.js" Url="Scripts/directives/ng-flags.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\services\formSvc.js" Url="Scripts/services/formSvc.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
